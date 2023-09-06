@@ -1,0 +1,11 @@
+.wrapper {
+  color: var(--link);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 20rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.linkStyles{
+  text-decoration: underline;
+}

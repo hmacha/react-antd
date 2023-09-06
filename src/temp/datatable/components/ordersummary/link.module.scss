@@ -1,0 +1,12 @@
+.wrapper{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 20rem;
+    overflow: hidden;
+    cursor: pointer;
+    span{
+        font-size: 1rem;
+        padding-left: .3rem;
+        color: var(--text-14);
+    }
+}

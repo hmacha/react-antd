@@ -1,0 +1,39 @@
+.wrapper{
+    text-transform: capitalize;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: left;
+    gap: .7rem;
+    .iconLock{
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius:50%;
+        background: var(--error);
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.2rem;
+    }
+    .tick{
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius:50%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.1rem;
+    }
+    .text{
+        display: grid;
+        grid-auto-flow: row;
+        align-items: center;
+        color: var(--primary);
+        .name{
+            font-size: 1rem;
+            color: var(--text-11);
+        }
+        &:hover{
+            color: var(--primary);
+        }
+    }
+}
